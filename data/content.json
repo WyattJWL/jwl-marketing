@@ -1,0 +1,161 @@
+{
+  "site": {
+    "name": "JWL Marketing",
+    "tagline": "Votre visibilité locale, notre expertise",
+    "description": "Consultante SEO & Marketing Digital à Aix-en-Provence. J'accompagne les indépendants, artisans et TPE/PME de la région PACA pour booster leur visibilité sur Google.",
+    "phone": "+33783792814",
+    "email": "contact@jwl-marketing.fr",
+    "address": "Pôle d'activité La Duranne, Aix-en-Provence",
+    "city": "Aix-en-Provence",
+    "region": "PACA",
+    "logo": "/images/logo.webp",
+    "socialLinks": {
+      "linkedin": "https://fr.linkedin.com/company/jwl-marketing",
+      "facebook": "https://www.facebook.com/61578345536283",
+      "tiktok": "https://tiktok.com/@jwl.marketing"
+    }
+  },
+  "hero": {
+    "badge": "Consultante SEO — Aix-en-Provence",
+    "title": "Vous méritez d'être trouvé sur Google.",
+    "subtitle": "J'accompagne les indépendants, artisans et TPE/PME de la région PACA pour transformer leur visibilité locale en clients réels.",
+    "cta": "Parlons de votre projet",
+    "ctaSecondary": "Découvrir mes services",
+    "imagePlaceholder": "Photo de Jodie — consultante JWL Marketing"
+  },
+  "stats": [
+    { "value": "2ème", "label": "Position Google en 1 mois", "detail": "sur consultant SEO Aix" },
+    { "value": "+769", "label": "Impressions Google", "detail": "en quelques semaines" },
+    { "value": "5+", "label": "Clients accompagnés", "detail": "TPE, PME, artisans" },
+    { "value": "100%", "label": "Résultats mesurables", "detail": "Google Search Console" }
+  ],
+  "services": [
+    {
+      "slug": "audit-seo",
+      "icon": "Search",
+      "title": "Audit SEO",
+      "shortDesc": "Diagnostic complet de votre visibilité sur Google.",
+      "description": "J'analyse en profondeur votre site pour identifier les freins à votre référencement : technique, contenu, autorité. Vous recevez un rapport clair avec des actions prioritaires.",
+      "benefits": ["Rapport détaillé en 48h", "Actions prioritaires classées", "Analyse de vos concurrents", "Recommandations concrètes"],
+      "price": "À partir de 290€"
+    },
+    {
+      "slug": "referencement-local",
+      "icon": "MapPin",
+      "title": "Référencement Local",
+      "shortDesc": "Apparaître en tête des recherches Google dans votre zone.",
+      "description": "Stratégie SEO locale complète : optimisation Google Business Profile, citations locales, contenu géolocalisé. Vos clients vous trouvent quand ils cherchent près de chez eux.",
+      "benefits": ["Optimisation Google Business Profile", "Citations locales", "Contenu géolocalisé", "Suivi positions"],
+      "price": "À partir de 390€/mois"
+    },
+    {
+      "slug": "creation-site-web",
+      "icon": "Globe",
+      "title": "Création de Site Web",
+      "shortDesc": "Un site pensé pour convertir, pas juste pour être beau.",
+      "description": "Je crée des sites WordPress optimisés SEO dès la conception. Architecture, vitesse, contenu, maillage — tout est pensé pour Google et vos visiteurs.",
+      "benefits": ["WordPress optimisé SEO", "Design responsive", "Vitesse Core Web Vitals", "Contenu SEO inclus"],
+      "price": "À partir de 890€"
+    },
+    {
+      "slug": "google-business-profile",
+      "icon": "Star",
+      "title": "Google Business Profile",
+      "shortDesc": "Votre fiche Google optimisée pour attirer plus de clients locaux.",
+      "description": "La fiche Google My Business est votre vitrine locale. Je l'optimise complètement : catégories, description, photos, posts réguliers, gestion des avis.",
+      "benefits": ["Création ou optimisation complète", "Posts réguliers", "Gestion avis", "Suivi insights"],
+      "price": "À partir de 190€"
+    },
+    {
+      "slug": "formation-seo",
+      "icon": "GraduationCap",
+      "title": "Formation SEO",
+      "shortDesc": "Devenez autonome sur votre référencement.",
+      "description": "Formation sur mesure en présentiel ou à distance. J'adapte le programme à votre niveau et vos objectifs. Vous repartez avec des compétences directement applicables.",
+      "benefits": ["Format présentiel ou distanciel", "Programme personnalisé", "Support après formation", "Exercices pratiques"],
+      "price": "À partir de 490€"
+    },
+    {
+      "slug": "suivi-seo",
+      "icon": "TrendingUp",
+      "title": "Suivi & Reporting SEO",
+      "shortDesc": "Des résultats mesurables chaque mois.",
+      "description": "Accompagnement mensuel avec rapport de performances, ajustements stratégiques et points réguliers. Vous savez exactement où vous en êtes.",
+      "benefits": ["Rapport mensuel clair", "Analyse Search Console", "Ajustements continus", "Appel mensuel inclus"],
+      "price": "À partir de 290€/mois"
+    }
+  ],
+  "about": {
+    "name": "Jodie Lapaillerie",
+    "role": "Fondatrice JWL Marketing",
+    "bio": "Après une formation en BTS NDRC et une expertise SEO acquise par la pratique et la formation continue, j'ai fondé JWL Marketing pour accompagner les entrepreneurs locaux qui méritent d'être visibles.",
+    "values": [
+      { "title": "Transparence", "desc": "Des rapports clairs, des résultats mesurables, zéro jargon inutile." },
+      { "title": "Proximité", "desc": "Je suis basée à Aix-en-Provence et connais le tissu économique local PACA." },
+      { "title": "Impact", "desc": "Chaque action est pensée pour générer de vrais clients, pas juste du trafic." }
+    ],
+    "imagePlaceholder": "Photo de Jodie Lapaillerie"
+  },
+  "testimonials": [
+    {
+      "name": "Jean-Claude",
+      "company": "Bout de Poils",
+      "text": "En quelques semaines, mon site est apparu sur des mots-clés que je n'aurais jamais imaginé. Les commandes ont augmenté.",
+      "rating": 5
+    },
+    {
+      "name": "Jean-Claude Bénard",
+      "company": "GreenBeamCraft",
+      "text": "Jodie a restructuré tout mon site et mes pages services. C'est propre, optimisé et ça convertit.",
+      "rating": 5
+    }
+  ],
+  "faq": [
+    {
+      "question": "Combien de temps pour voir des résultats SEO ?",
+      "answer": "En SEO local, les premiers résultats sont souvent visibles en 4 à 8 semaines. Pour des mots-clés plus compétitifs, comptez 3 à 6 mois. Je vous montre les progrès dès le premier mois avec Google Search Console."
+    },
+    {
+      "question": "Travaillez-vous uniquement sur Aix-en-Provence ?",
+      "answer": "Je suis basée à Aix-en-Provence mais j'accompagne des clients dans toute la région PACA et à distance partout en France."
+    },
+    {
+      "question": "Quelle est la différence entre SEO local et SEO classique ?",
+      "answer": "Le SEO local cible les recherches géographiques ('plombier Aix-en-Provence'). Il inclut l'optimisation Google Business Profile, les citations locales et le contenu géolocalisé."
+    },
+    {
+      "question": "Proposez-vous des contrats sans engagement ?",
+      "answer": "Oui. Je propose des missions ponctuelles (audit, création de site) et des accompagnements mensuels. Pas de contrat longue durée imposé."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "seo-local-pme-2025",
+      "title": "5 conseils SEO local pour les PME en 2025",
+      "excerpt": "Le référencement local n'est pas réservé aux grandes enseignes. Voici 5 actions concrètes pour booster votre visibilité locale.",
+      "category": "SEO Local",
+      "date": "2025-01-15",
+      "readTime": 4,
+      "imagePlaceholder": "SEO local PME"
+    },
+    {
+      "slug": "google-business-profile-optimisation",
+      "title": "Google Business Profile : le guide complet pour 2025",
+      "excerpt": "Votre fiche Google est votre vitrine locale. Voici comment l'optimiser pour attirer plus de clients.",
+      "category": "Google Business",
+      "date": "2025-02-10",
+      "readTime": 6,
+      "imagePlaceholder": "Google Business Profile"
+    },
+    {
+      "slug": "audit-seo-pourquoi",
+      "title": "Pourquoi faire un audit SEO avant tout ?",
+      "excerpt": "Avant de créer du contenu ou des backlinks, il faut diagnostiquer. L'audit SEO est le point de départ indispensable.",
+      "category": "SEO",
+      "date": "2025-03-05",
+      "readTime": 5,
+      "imagePlaceholder": "Audit SEO"
+    }
+  ],
+  "zones": ["Aix-en-Provence", "Marseille", "Toulon", "Nice", "Avignon", "Arles", "Aubagne", "La Ciotat", "Salon-de-Provence", "Vitrolles", "Martigues", "Gap"]
+}
