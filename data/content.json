@@ -21,13 +21,30 @@
     "subtitle": "J'accompagne les indépendants, artisans et TPE/PME de la région PACA pour transformer leur visibilité locale en clients réels.",
     "cta": "Parlons de votre projet",
     "ctaSecondary": "Découvrir mes services",
-    "imagePlaceholder": "Photo de Jodie — consultante JWL Marketing"
+    "imagePlaceholder": "Photo de Jodie — consultante JWL Marketing",
+    "imageUrl": ""
   },
   "stats": [
-    { "value": "2ème", "label": "Position Google en 1 mois", "detail": "sur consultant SEO Aix" },
-    { "value": "+769", "label": "Impressions Google", "detail": "en quelques semaines" },
-    { "value": "5+", "label": "Clients accompagnés", "detail": "TPE, PME, artisans" },
-    { "value": "100%", "label": "Résultats mesurables", "detail": "Google Search Console" }
+    {
+      "value": "2ème",
+      "label": "Position Google en 1 mois",
+      "detail": "sur consultant SEO Aix"
+    },
+    {
+      "value": "+769",
+      "label": "Impressions Google",
+      "detail": "en quelques semaines"
+    },
+    {
+      "value": "5+",
+      "label": "Clients accompagnés",
+      "detail": "TPE, PME, artisans"
+    },
+    {
+      "value": "100%",
+      "label": "Résultats mesurables",
+      "detail": "Google Search Console"
+    }
   ],
   "services": [
     {
@@ -36,8 +53,14 @@
       "title": "Audit SEO",
       "shortDesc": "Diagnostic complet de votre visibilité sur Google.",
       "description": "J'analyse en profondeur votre site pour identifier les freins à votre référencement : technique, contenu, autorité. Vous recevez un rapport clair avec des actions prioritaires.",
-      "benefits": ["Rapport détaillé en 48h", "Actions prioritaires classées", "Analyse de vos concurrents", "Recommandations concrètes"],
-      "price": "À partir de 290€"
+      "benefits": [
+        "Rapport détaillé en 48h",
+        "Actions prioritaires classées",
+        "Analyse de vos concurrents",
+        "Recommandations concrètes"
+      ],
+      "price": "À partir de 290€",
+      "imageUrl": ""
     },
     {
       "slug": "referencement-local",
@@ -45,8 +68,14 @@
       "title": "Référencement Local",
       "shortDesc": "Apparaître en tête des recherches Google dans votre zone.",
       "description": "Stratégie SEO locale complète : optimisation Google Business Profile, citations locales, contenu géolocalisé. Vos clients vous trouvent quand ils cherchent près de chez eux.",
-      "benefits": ["Optimisation Google Business Profile", "Citations locales", "Contenu géolocalisé", "Suivi positions"],
-      "price": "À partir de 390€/mois"
+      "benefits": [
+        "Optimisation Google Business Profile",
+        "Citations locales",
+        "Contenu géolocalisé",
+        "Suivi positions"
+      ],
+      "price": "À partir de 390€/mois",
+      "imageUrl": ""
     },
     {
       "slug": "creation-site-web",
@@ -54,8 +83,14 @@
       "title": "Création de Site Web",
       "shortDesc": "Un site pensé pour convertir, pas juste pour être beau.",
       "description": "Je crée des sites WordPress optimisés SEO dès la conception. Architecture, vitesse, contenu, maillage — tout est pensé pour Google et vos visiteurs.",
-      "benefits": ["WordPress optimisé SEO", "Design responsive", "Vitesse Core Web Vitals", "Contenu SEO inclus"],
-      "price": "À partir de 890€"
+      "benefits": [
+        "WordPress optimisé SEO",
+        "Design responsive",
+        "Vitesse Core Web Vitals",
+        "Contenu SEO inclus"
+      ],
+      "price": "À partir de 890€",
+      "imageUrl": ""
     },
     {
       "slug": "google-business-profile",
@@ -63,8 +98,14 @@
       "title": "Google Business Profile",
       "shortDesc": "Votre fiche Google optimisée pour attirer plus de clients locaux.",
       "description": "La fiche Google My Business est votre vitrine locale. Je l'optimise complètement : catégories, description, photos, posts réguliers, gestion des avis.",
-      "benefits": ["Création ou optimisation complète", "Posts réguliers", "Gestion avis", "Suivi insights"],
-      "price": "À partir de 190€"
+      "benefits": [
+        "Création ou optimisation complète",
+        "Posts réguliers",
+        "Gestion avis",
+        "Suivi insights"
+      ],
+      "price": "À partir de 190€",
+      "imageUrl": ""
     },
     {
       "slug": "formation-seo",
@@ -72,8 +113,14 @@
       "title": "Formation SEO",
       "shortDesc": "Devenez autonome sur votre référencement.",
       "description": "Formation sur mesure en présentiel ou à distance. J'adapte le programme à votre niveau et vos objectifs. Vous repartez avec des compétences directement applicables.",
-      "benefits": ["Format présentiel ou distanciel", "Programme personnalisé", "Support après formation", "Exercices pratiques"],
-      "price": "À partir de 490€"
+      "benefits": [
+        "Format présentiel ou distanciel",
+        "Programme personnalisé",
+        "Support après formation",
+        "Exercices pratiques"
+      ],
+      "price": "À partir de 490€",
+      "imageUrl": ""
     },
     {
       "slug": "suivi-seo",
@@ -81,8 +128,14 @@
       "title": "Suivi & Reporting SEO",
       "shortDesc": "Des résultats mesurables chaque mois.",
       "description": "Accompagnement mensuel avec rapport de performances, ajustements stratégiques et points réguliers. Vous savez exactement où vous en êtes.",
-      "benefits": ["Rapport mensuel clair", "Analyse Search Console", "Ajustements continus", "Appel mensuel inclus"],
-      "price": "À partir de 290€/mois"
+      "benefits": [
+        "Rapport mensuel clair",
+        "Analyse Search Console",
+        "Ajustements continus",
+        "Appel mensuel inclus"
+      ],
+      "price": "À partir de 290€/mois",
+      "imageUrl": ""
     }
   ],
   "about": {
@@ -90,11 +143,22 @@
     "role": "Fondatrice JWL Marketing",
     "bio": "Après une formation en BTS NDRC et une expertise SEO acquise par la pratique et la formation continue, j'ai fondé JWL Marketing pour accompagner les entrepreneurs locaux qui méritent d'être visibles.",
     "values": [
-      { "title": "Transparence", "desc": "Des rapports clairs, des résultats mesurables, zéro jargon inutile." },
-      { "title": "Proximité", "desc": "Je suis basée à Aix-en-Provence et connais le tissu économique local PACA." },
-      { "title": "Impact", "desc": "Chaque action est pensée pour générer de vrais clients, pas juste du trafic." }
+      {
+        "title": "Transparence",
+        "desc": "Des rapports clairs, des résultats mesurables, zéro jargon inutile."
+      },
+      {
+        "title": "Proximité",
+        "desc": "Je suis basée à Aix-en-Provence et connais le tissu économique local PACA."
+      },
+      {
+        "title": "Impact",
+        "desc": "Chaque action est pensée pour générer de vrais clients, pas juste du trafic."
+      }
     ],
-    "imagePlaceholder": "Photo de Jodie Lapaillerie"
+    "imagePlaceholder": "Photo de Jodie Lapaillerie",
+    "imageUrl": "",
+    "imageUrlHero": ""
   },
   "testimonials": [
     {
@@ -136,7 +200,8 @@
       "category": "SEO Local",
       "date": "2025-01-15",
       "readTime": 4,
-      "imagePlaceholder": "SEO local PME"
+      "imagePlaceholder": "SEO local PME",
+      "imageUrl": ""
     },
     {
       "slug": "google-business-profile-optimisation",
@@ -145,7 +210,8 @@
       "category": "Google Business",
       "date": "2025-02-10",
       "readTime": 6,
-      "imagePlaceholder": "Google Business Profile"
+      "imagePlaceholder": "Google Business Profile",
+      "imageUrl": ""
     },
     {
       "slug": "audit-seo-pourquoi",
@@ -154,8 +220,22 @@
       "category": "SEO",
       "date": "2025-03-05",
       "readTime": 5,
-      "imagePlaceholder": "Audit SEO"
+      "imagePlaceholder": "Audit SEO",
+      "imageUrl": ""
     }
   ],
-  "zones": ["Aix-en-Provence", "Marseille", "Toulon", "Nice", "Avignon", "Arles", "Aubagne", "La Ciotat", "Salon-de-Provence", "Vitrolles", "Martigues", "Gap"]
+  "zones": [
+    "Aix-en-Provence",
+    "Marseille",
+    "Toulon",
+    "Nice",
+    "Avignon",
+    "Arles",
+    "Aubagne",
+    "La Ciotat",
+    "Salon-de-Provence",
+    "Vitrolles",
+    "Martigues",
+    "Gap"
+  ]
 }

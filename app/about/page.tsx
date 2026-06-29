@@ -37,13 +37,14 @@ export default function AboutPage() {
             <AnimateOnScroll delay={200} direction="right">
               <div className="relative mx-auto max-w-md">
                 <div className="aspect-square bg-gradient-to-br from-terra/20 to-gold/10 rounded-2xl overflow-hidden border border-white/10">
-                  <div className="w-full h-full flex flex-col items-center justify-center text-white/30 gap-3">
-                    <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center text-4xl">&#128247;</div>
-                    <div className="text-center">
-                      <p className="text-sm font-medium">Photo de Jodie</p>
-                      <p className="text-xs opacity-60 mt-1">Ajouter /public/images/jodie.jpg</p>
+                  {content.about.imageUrlHero ? (
+                    <img src={content.about.imageUrlHero} alt="Jodie Lapaillerie" className="w-full h-full object-cover" />
+                  ) : (
+                    <div className="w-full h-full flex flex-col items-center justify-center text-white/30 gap-3">
+                      <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center text-4xl">&#128247;</div>
+                      <p className="text-sm font-medium">URL image dans l&apos;admin</p>
                     </div>
-                  </div>
+                  )}
                 </div>
                 {/* Badge flottant */}
                 <div className="absolute -bottom-4 -right-4 bg-terra rounded-2xl p-4 shadow-2xl">

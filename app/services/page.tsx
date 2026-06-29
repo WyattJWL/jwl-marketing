@@ -72,14 +72,17 @@ export default function ServicesPage() {
                     </Button>
                   </div>
 
-                  {/* Visual placeholder */}
+                  {/* Image service */}
                   <div className="aspect-[4/3] bg-gradient-to-br from-surface to-bd rounded-2xl overflow-hidden border border-bd relative">
-                    <div className="absolute inset-0 flex flex-col items-center justify-center text-muted/40">
-                      <div className="text-terra mb-4">{iconMap[service.icon]}</div>
-                      <p className="text-sm font-medium">{service.title}</p>
-                      <p className="text-xs mt-1 opacity-60">Remplacer par une image dans /public/images/</p>
-                    </div>
-                    {/* Decorative corner */}
+                    {service.imageUrl ? (
+                      <img src={service.imageUrl} alt={service.title} className="w-full h-full object-cover" />
+                    ) : (
+                      <div className="absolute inset-0 flex flex-col items-center justify-center text-muted/40">
+                        <div className="text-terra mb-4">{iconMap[service.icon]}</div>
+                        <p className="text-sm font-medium">{service.title}</p>
+                        <p className="text-xs mt-1 opacity-60">URL image dans l&apos;admin</p>
+                      </div>
+                    )}
                     <div className="absolute top-4 right-4 w-12 h-12 bg-terra/10 rounded-xl" />
                     <div className="absolute bottom-4 left-4 w-8 h-8 bg-gold/10 rounded-lg" />
                   </div>

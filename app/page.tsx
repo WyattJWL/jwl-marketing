@@ -82,16 +82,19 @@ export default function HomePage() {
             <AnimateOnScroll delay={200} direction="right">
               <div className="relative">
                 <div className="aspect-[4/5] bg-gradient-to-br from-terra/20 to-gold/10 rounded-2xl overflow-hidden border border-white/10">
-                  {/* Zone image — remplacer par <Image> */}
-                  <div className="w-full h-full flex items-center justify-center">
-                    <div className="text-center text-white/30">
-                      <div className="w-20 h-20 bg-white/10 rounded-full mx-auto mb-4 flex items-center justify-center">
-                        <span className="text-3xl">&#128247;</span>
+                  {content.hero.imageUrl ? (
+                    <img src={content.hero.imageUrl} alt="Jodie Lapaillerie — JWL Marketing" className="w-full h-full object-cover" />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center">
+                      <div className="text-center text-white/30">
+                        <div className="w-20 h-20 bg-white/10 rounded-full mx-auto mb-4 flex items-center justify-center">
+                          <span className="text-3xl">&#128247;</span>
+                        </div>
+                        <p className="text-sm font-medium">Photo de Jodie</p>
+                        <p className="text-xs mt-1 opacity-60">Ajouter l&apos;URL dans l&apos;admin</p>
                       </div>
-                      <p className="text-sm font-medium">Photo de Jodie</p>
-                      <p className="text-xs mt-1 opacity-60">Remplacer dans /public/images/jodie.jpg</p>
                     </div>
-                  </div>
+                  )}
                 </div>
                 {/* Floating cards */}
                 <div className="absolute -left-6 top-1/4 bg-white rounded-xl p-4 shadow-2xl border border-bd">
